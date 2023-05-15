@@ -25,6 +25,20 @@ main{
 .mt-5.a_mt-5{
     margin-top: 5em !important;
 }
+ul >li:hover{
+    background-color: #EBEBEB;
+    cursor: pointer;
+    
+}
+.a_submenu{
+  width: 100px;
+    display: none;
+
+}
+.a_menu >li:hover ul{
+ display: block;
+}
+
 footer{
   
   
