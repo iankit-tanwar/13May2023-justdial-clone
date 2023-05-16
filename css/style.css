@@ -66,16 +66,11 @@ footer{
     .a_ul {
   display: none;
     }
+   
   }
 @media screen and (max-width: 576px) {
-    .a_header {
-     height: 50px;
-    }
-    .a_header_logo{
-       
     
-        
-    }
+   
   }
 
 
