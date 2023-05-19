@@ -67,11 +67,7 @@ footer{
 .a_times_fonts{
     font-family: 'Times New Roman', Times, serif;
 }
-a_img{
-    min-width: 60%;
-  
-    
-}
+
 .fw600{
     font-weight: 600;
     font-size: calc(10px + .15vw);
