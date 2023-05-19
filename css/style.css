@@ -10,7 +10,7 @@ body{
 
 
 header{
-   height: 81px;
+   min-height: 81px;
     margin: auto;
 
    
@@ -62,14 +62,25 @@ footer{
 .footer_4{
     height: 97px;
 }
+
+
+.a_times_fonts{
+    font-family: 'Times New Roman', Times, serif;
+}
+.a_img{
+    min-width: 60%;
+  
+    
+}
+
 @media screen and (max-width: 976px) {
     .a_ul {
   display: none;
     }
    
   }
-@media screen and (max-width: 576px) {
-    
+@media screen and (min-width: 768px) {
+   
    
   }
 
