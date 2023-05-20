@@ -69,9 +69,45 @@ footer{
 }
 
 .fw600{
+    width: 100%;
     font-weight: 600;
     font-size: calc(10px + .15vw);
 }
+.font14 {
+    font-size: calc(14px + .15vw);
+    color: #414e5a;
+}
+.font10{
+    font-size: calc(12px + .15vw);
+    color: #788898;
+}
+.footer_fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+    height: 52px;
+    background-color: #fff;
+    border-top: 1px solid #e4eaef;
+    z-index: 7;
+    bottom: env(safe-area-inset-bottom,70px);
+}
+.f_txt{
+    
+        width: 100%;
+        display: block;
+        color: #414e5a;
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: 3px;
+      
+    
+}
+
+
+
+
 
 @media screen and (max-width: 976px) {
     .a_ul {
