@@ -47,6 +47,34 @@ ul >li:hover{
     display: flex;
     flex: 1;
   }
+.bb{
+    width: 60px;
+    height: 60px;
+  
+  
+}
+.bbc{
+    width: 80px;
+    height: 80px;
+  
+  
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.webox{
+    width: 650px;
+    height: 200px;
+    background-color: #00AC7D;
+}
+
+.b{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
 
  .clr1{
     background-color:#0F7DD8 ;
