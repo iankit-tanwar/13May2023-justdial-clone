@@ -48,10 +48,26 @@ ul >li:hover{
     flex: 1;
   }
 .bb{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+ 
   
   
+}
+.home_hotkeybox {
+    grid-gap: 0 70px;
+}
+.m2h{
+  
+}
+.m3r{
+    padding-top: 50px;
+}
+
+.flex-container{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
 }
 .bbc{
     width: 80px;
