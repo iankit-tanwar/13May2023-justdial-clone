@@ -22,10 +22,15 @@ header{
   height: 30px;
 }
 main{
-    height: 3119px;
+   padding-bottom: 55px;
 
-    
+}
 
+.a_lm_1{
+    height: 240px;
+}
+.a_m1_font{
+    font-size: calc(10px + .15vw);
 }
 .mt-5.a_mt-5{
     margin-top: 5em !important;
