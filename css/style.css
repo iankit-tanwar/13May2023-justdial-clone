@@ -40,6 +40,15 @@ ul >li:hover{
     cursor: pointer;
     
 }
+a.icon>img:hover{
+    background-color: #FFF;
+
+}
+a.icon:hover{
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+
+
+}
 .a_submenu{
   width: 100px;
     display: none;
@@ -52,16 +61,54 @@ ul >li:hover{
     display: flex;
     flex: 1;
   }
-.bb{
+.a_m2_icon{
     width: 70px;
     height: 70px;
- 
   
-  
+}
+
+.img_size{
+    width: 50px;
+    height: 50px;
 }
 .home_hotkeybox {
-    grid-gap: 0 70px;
+    grid-gap: 0 77px;
 }
+
+.carousel-indicators button{
+    width: 6px !important;
+    height: 6px !important;
+}
+.slider{
+    cursor: pointer;
+}
+
+.a_ccp,.a_ccn{
+    visibility: hidden !important;
+}
+.a_ccp{
+   left: 10px;
+}
+
+.a_ccn{
+    right: 10px;
+ }
+.slider> .a_ccp , .a_ccn{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 10);
+    opacity: 0.5;
+}
+.slider>.a_ccn{
+    opacity: 0.5;
+}
+
+.slider:hover .a_ccp , .slider:hover .a_ccn{
+    visibility: visible !important;
+}
+
+
+
 
 .m3r{
     padding-top: 50px;
