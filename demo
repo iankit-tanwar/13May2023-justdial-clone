@@ -1,43 +1,11 @@
-<ul class="nav   a_menu  a_tbdr  me-5 m-0 d-inline-flex p-2 box h-100 ">
-    <li class="nav-item a_tbdr h-100 ">
-        <a class="ps-2 pe-2 pt-0 pb-0 nav-link active  " aria-current="page" href="#"><img class="me-1"
-                src="./img/nav img/nav_language_icon.svg" />English<img class="ms-1"
-                src="./img/nav img/down_arrow5.svg" /></a>
-        <ul class="nav flex-column a_submenu position-absolute bg-white border">
-            <li class="nav-item">
-                <a class="nav-link active text-secondary-emphasis pt-1 pb-1" aria-current="page" href="#">Hindi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary-emphasis  pt-1 pb-1 " href="#">English</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary-emphasis  pt-1 pb-1" href="#">Marathi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-secondary-emphasis  pt-1 pb-1">French</a>
-            </li>
-        </ul>
-    </li>
-    <li class="nav-item ">
-        <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis" href="#">We are hiring</a>
-    </li>
-    <li class="nav-item">
-        <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis" href="#">Inverstor relation</a>
-    </li>
-    <li class="nav-item">
-        <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis"><img class="me-1"
-                src="./img/nav img/nav_advertise_icon.svg" />Advertise</a>
-    </li>
-    <li class="nav-item">
-        <a class=" ps-2 pe-2 pt-0 pb-0  nav-link text-secondary-emphasis"><img class="me-1"
-                src="./img/nav img/nav_listing_icon.svg" />Free Listing</a>
-    </li>
-    <li class="nav-item">
-        <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis"><img class=""
-                src="./img/nav img/notify_icon.svg"></a>
-    </li>
-    <li class="nav-item">
-        <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis"><img class=""
-                src="./img/nav img/jd_login_icon.svg">Login/Sign up</a>
-    </li>
-</ul>
+<div class="col-4 p-0 border border-dark-subtle">
+    <a class="text-dark text-decoration-none" >
+      <h5>NINTH PLANET REALTY</h5>
+      <span>Andheri East-Mumbai</span>
+      <img class="img-fluid w-100 p-0" style="width: 428px; height: 180px;"
+        src="https://images.jdmagicbox.com/comp/mumbai/d6/022pxx22.xx22.230419122510.d4d6/catalogue/ninth-planet-realty-andheri-east-mumbai-estate-agents-022hrsgih6.jpg" /></a>
+ 
+        <div class="">
+          <img src=""/>
+        </div>
+      </div>
