@@ -170,17 +170,8 @@ a.icon:hover{
  }
 
 
-footer{
-  
-  
-}
-.footer_1{
-    height: 259px;
-   
-   
-      
-    
-}
+
+
 .ftr_font{
     color: #777;
     font-size: 13px;
@@ -198,13 +189,8 @@ div.footer_1>a:hover{
 
 }
 
-.footer_2{
-   
-}
 
-.footer_3{
-    height: 1300px;
-}
+
 span.ftr3>a{
     color: #131414;
     text-decoration: none;
@@ -214,9 +200,21 @@ span.ftr3>a:hover{
     text-decoration: underline;
 }
 
-.footer_4{
-    height: 97px;
+div.ftr4 >a:hover{
+    color: #0F7DD8;
+    text-decoration: underline;
+
 }
+
+div.ftr5 >a:hover{
+    color: #0F7DD8;
+    text-decoration: underline;
+}
+div.ftr6 >a:hover{
+    color: #0F7DD8;
+    text-decoration: underline;
+}
+
 
 
 .a_times_fonts{
