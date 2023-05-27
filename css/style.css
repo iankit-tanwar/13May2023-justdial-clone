@@ -127,7 +127,7 @@ a.icon:hover{
     display: flex;
     flex-wrap: wrap;
 }
-.a_m55_box{
+.bbc{
     width: 80px;
     height: 80px;
   
@@ -137,6 +137,18 @@ a.icon:hover{
     display: flex;
     flex-wrap: wrap;
 }
+.webox{
+    width: 650px;
+    height: 200px;
+    background-color: #00AC7D;
+}
+
+.flexbox{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
 
  .clr1{
     background-color:#0F7DD8 ;
@@ -176,7 +188,7 @@ a.icon:hover{
  }
 
 
-/*--footer---*/
+
 
 .ftr_font{
     color: #777;
@@ -188,9 +200,14 @@ a.icon:hover{
 
 
 div.footer_1>a:hover{
+   
     text-decoration: underline;
     color: #0F7DD8;
-   }
+   
+
+}
+
+
 
 span.ftr3>a{
     color: #131414;
