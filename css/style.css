@@ -19,6 +19,9 @@ header{
    
   height: 30px;
 }
+.btn_font{
+    font-size: calc(13px + .15vw);
+}
 
 main{
    padding-bottom: 55px;
@@ -127,7 +130,7 @@ a.icon:hover{
     display: flex;
     flex-wrap: wrap;
 }
-.bbc{
+.box_size{
     width: 80px;
     height: 80px;
   
