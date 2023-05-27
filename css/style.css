@@ -1,9 +1,7 @@
 body{
     background-color: #E8E8E8;
 }
-.cont{
-   
-}
+
 .a_tbdr{
     border: 1px dashed red;
 }
@@ -21,6 +19,7 @@ header{
    
   height: 30px;
 }
+
 main{
    padding-bottom: 55px;
 
@@ -72,13 +71,16 @@ a.icon:hover{
     height: 70px;
   
 }
+.a_Mcolor{
+    background-color: #F5F5F5;
+}
 
 .img_size{
     width: 50px;
     height: 50px;
 }
 .home_hotkeybox {
-    grid-gap: 0 72px;
+    grid-gap: 0 70px;
 }
 
 .carousel-indicators button{
@@ -125,7 +127,7 @@ a.icon:hover{
     display: flex;
     flex-wrap: wrap;
 }
-.bbc{
+.a_m55_box{
     width: 80px;
     height: 80px;
   
@@ -135,31 +137,35 @@ a.icon:hover{
     display: flex;
     flex-wrap: wrap;
 }
-.webox{
-    width: 650px;
-    height: 200px;
-    background-color: #00AC7D;
-}
-
-.b{
-    flex-wrap: wrap;
-    display: flex;
-}
-
-
 
  .clr1{
     background-color:#0F7DD8 ;
  }
+ div.clr1_hover>a.clr1:hover{
+    background-color:#0F7DD8 ;
+
+ }
  .clr2{
+    background-color:#2654A1 ;
+ }
+ div.clr1_hover>a.clr2:hover{
     background-color:#2654A1 ;
  }
 
  .clr3{
     background-color:#6769D0 ;
  }
+ div.clr1_hover>a.clr3:hover{
+    
+    background-color:#6769D0 ;
+ }
+ 
 
  .clr4{
+    background-color:#00AC7D ;
+ }
+ div.clr1_hover>a.clr4:hover{
+    
     background-color:#00AC7D ;
  }
 
@@ -170,7 +176,7 @@ a.icon:hover{
  }
 
 
-
+/*--footer---*/
 
 .ftr_font{
     color: #777;
@@ -182,14 +188,9 @@ a.icon:hover{
 
 
 div.footer_1>a:hover{
-   
     text-decoration: underline;
     color: #0F7DD8;
-   
-
-}
-
-
+   }
 
 span.ftr3>a{
     color: #131414;
