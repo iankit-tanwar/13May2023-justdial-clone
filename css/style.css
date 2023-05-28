@@ -23,9 +23,6 @@ header{
     font-size: calc(13px + .15vw);
 }
 
-.btn-light{
-   
-}
 
 main{
    padding-bottom: 55px;
@@ -86,9 +83,7 @@ a.icon:hover{
     width: 50px;
     height: 50px;
 }
-.home_hotkeybox {
-    grid-gap: 0 70px;
-}
+
 
 .carousel-indicators button{
     width: 6px !important;
