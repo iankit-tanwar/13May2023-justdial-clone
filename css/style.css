@@ -1,253 +1,272 @@
-body{
+body {
     background-color: #E8E8E8;
 }
 
-.a_tbdr{
+.a_tbdr {
     border: 1px dashed red;
 }
 
 
-header{
-   min-height: 79px;
+header {
+    min-height: 79px;
     margin: auto;
 
-   
+
 
 }
-.a_header_logoo{
+
+.a_header_logoo {
     margin-top: 10px;
-   
-  height: 30px;
+
+    height: 30px;
 }
-.btn_font{
+
+.btn_font {
     font-size: calc(13px + .15vw);
 }
 
 
-main{
-   padding-bottom: 55px;
+main {
+    padding-bottom: 55px;
 
 }
 
-.a_M1{
+.a_M1 {
     height: 130px;
 }
-.a_curser{
+
+.a_curser {
     cursor: pointer;
 }
 
 
 
-.a_m1_font{
+.a_m1_font {
     font-size: calc(10px + .15vw);
 }
-.mt-5.a_mt-5{
+
+.mt-5.a_mt-5 {
     margin-top: 5em !important;
 }
-ul >li:hover{
+
+ul>li:hover {
     background-color: #EBEBEB;
     cursor: pointer;
-    
+
 }
-a.icon>img:hover{
+
+a.icon>img:hover {
     background-color: #FFF;
 
 }
-a.icon:hover{
+
+a.icon:hover {
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 
 
 }
-.a_submenu{
-  width: 100px;
+
+.a_submenu {
+    width: 105px;
     display: none;
 
 }
-.a_menu >li:hover ul{
- display: block;
+
+.a_menu>li:hover ul {
+    display: block;
 }
+
 .box {
     display: flex;
     flex: 1;
-  }
-.a_m2_icon{
+}
+
+.a_m2_icon {
     width: 70px;
     height: 70px;
-  
+
 }
-.a_Mcolor{
+
+.a_Mcolor {
     background-color: #F5F5F5;
 }
 
-.img_size{
+.img_size {
     width: 50px;
     height: 50px;
 }
 
 
-.carousel-indicators button{
+.carousel-indicators button {
     width: 6px !important;
     height: 6px !important;
 }
-.slider{
+
+.slider {
     cursor: pointer;
 }
 
-.a_ccp,.a_ccn{
+.a_ccp,
+.a_ccn {
     visibility: hidden !important;
 }
-.a_ccp{
-   left: 10px;
+
+.a_ccp {
+    left: 10px;
 }
 
-.a_ccn{
+.a_ccn {
     right: 10px;
- }
-.slider> .a_ccp , .a_ccn{
+}
+
+.slider>.a_ccp,
+.a_ccn {
     width: 30px;
     height: 30px;
     background-color: rgba(0, 0, 0, 10);
     opacity: 0.5;
 }
-.slider>.a_ccn{
+
+.slider>.a_ccn {
     opacity: 0.5;
 }
 
-.slider:hover .a_ccp , .slider:hover .a_ccn{
+.slider:hover .a_ccp,
+.slider:hover .a_ccn {
     visibility: visible !important;
 }
 
 
-
-
-.m3r{
+.m3r {
     padding-top: 50px;
 }
 
-.flex-container{
+.flex-container {
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
 }
-.box_size{
+
+.box_size {
     width: 80px;
     height: 80px;
-  
-  
+
+
 }
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
-.webox{
+
+.webox {
     width: 650px;
     height: 200px;
     background-color: #00AC7D;
 }
 
-.flexbox{
+.flexbox {
     flex-wrap: wrap;
     display: flex;
 }
 
-a.clr1>img{
+a.clr1>img {
     transform-origin: right bottom;
-    transform: scale3d(1,1,1);
+    transform: scale3d(1, 1, 1);
     transition: all linear 0.4s;
 }
 
- .clr1>img:hover{
-    transform: scale3d(1.1,1.1,1)
-
- }
- .clr1 .h3{
-    transform-origin: left bottom;
-    transform: scale3d(1,1,1);
-    transition: all linear 0.6s;
+.clr1>img:hover {
+    transform: scale3d(1.1, 1.1, 1)
 }
 
- a.clr1:hover h3 {
-    transform: scale3d(1.1,1.1,1)
+.clr1>h3 {
+    transform-origin: bottom left;
+    transform: scale3d(1, 1, 1);
+    transition: all linear 0.4s;
 
- }
+}
+
+a.clr1:hover h3 {
+    transform: scale3d(1.1, 1.1, 1);
+
+}
 
 
- a.clr2>img{
+a.clr2>img {
     transform-origin: right bottom;
-    transform: scale3d(1,1,1);
+    transform: scale3d(1, 1, 1);
     transition: all linear 0.4s;
 }
 
- .clr2>img:hover{
-    transform: scale3d(1.1,1.1,1)
-
- }
- .clr2 .h3{
-    transform-origin: left bottom;
-    transform: scale3d(1,1,1);
-    transition: all linear 0.6s;
+.clr2>img:hover {
+    transform: scale3d(1.1, 1.1, 1)
 }
 
- a.clr2:hover h3 {
-    transform: scale3d(1.1,1.1,1)
-
- }
- a.clr3>img{
-    transform-origin: right bottom;
-    transform: scale3d(1,1,1);
+.clr2>h3 {
+    transform-origin: bottom left;
+    transform: scale3d(1, 1, 1);
     transition: all linear 0.4s;
 }
 
- .clr3>img:hover{
-    transform: scale3d(1.1,1.1,1)
-
- }
- .clr3 .h3{
-    transform-origin: left bottom;
-    transform: scale3d(1,1,1);
-    transition: all linear 0.6s;
+a.clr2:hover h3 {
+    transform: scale3d(1.1, 1.1, 1)
 }
 
- a.clr3:hover h3 {
-    transform: scale3d(1.1,1.1,1)
-
- }
-
-
- a.clr4>img{
+a.clr3>img {
     transform-origin: right bottom;
-    transform: scale3d(1,1,1);
+    transform: scale3d(1, 1, 1);
     transition: all linear 0.4s;
 }
 
- .clr4>img:hover{
-    transform: scale3d(1.1,1.1,1)
-
- }
- .clr4 .h3{
-    transform-origin: right bottom;
-    transform: scale3d(1,1,1);
-    transition: all linear 0.6s;
+.clr3>img:hover {
+    transform: scale3d(1.1, 1.1, 1)
 }
 
- a.clr4:hover h3 {
-    transform: scale3d(1.1,1.1,1)
+.clr3>h3 {
+    transform-origin: bottom left;
+    transform: scale3d(1, 1, 1);
+    transition: all linear 0.4s;
+}
 
- }
+a.clr3:hover h3 {
+    transform: scale3d(1.1, 1.1, 1)
+}
+
+
+a.clr4>img {
+    transform-origin: right bottom;
+    transform: scale3d(1, 1, 1);
+    transition: all linear 0.4s;
+}
+
+.clr4>img:hover {
+    transform: scale3d(1.1, 1.1, 1)
+}
+
+.clr4>h3 {
+    transform-origin: bottom left;
+    transform: scale3d(1, 1, 1);
+    transition: all linear 0.4s;
+}
+
+a.clr4:hover h3 {
+    transform: scale3d(1.1, 1.1, 1)
+}
 
 
 
 
 
- .a_m55font{
+.a_m55font {
     font-size: 13px;
     font-weight: 400;
- }
+}
 
 
 
 
-.ftr_font{
+.ftr_font {
     color: #777;
     font-size: 13px;
     font-weight: 400;
@@ -256,60 +275,65 @@ a.clr1>img{
 }
 
 
-div.footer_1>a:hover{
-   
+div.footer_1>a:hover {
+
     text-decoration: underline;
     color: #0F7DD8;
-   
+
 
 }
 
 
 
-span.ftr3>a{
+span.ftr3>a {
     color: #131414;
     text-decoration: none;
 }
-span.ftr3>a:hover{
+
+span.ftr3>a:hover {
     color: #0F7DD8;
     text-decoration: underline;
 }
 
-div.ftr4 >a:hover{
+div.ftr4>a:hover {
     color: #0F7DD8;
     text-decoration: underline;
 
 }
 
-div.ftr5 >a:hover{
-    color: #0F7DD8;
-    text-decoration: underline;
-}
-div.ftr6 >a:hover{
+div.ftr5>a:hover {
     color: #0F7DD8;
     text-decoration: underline;
 }
 
+div.ftr6>a:hover {
+    color: #0F7DD8;
+    text-decoration: underline;
+}
 
 
-.a_times_fonts{
+
+.a_times_fonts {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.fw600{
+.fw600 {
     width: 100%;
     font-weight: 600;
     font-size: calc(10px + .15vw);
 }
+
 .font14 {
     font-size: calc(14px + .15vw);
     color: #414e5a;
 }
-.font10{
+
+.font10 {
     font-size: calc(12px + .15vw);
     color: #788898;
 }
-.footer_fixed{
+
+.footer_fixed {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -319,64 +343,71 @@ div.ftr6 >a:hover{
     background-color: #fff;
     border-top: 1px solid #e4eaef;
     z-index: 7;
-    bottom: env(safe-area-inset-bottom,70px);
+    bottom: env(safe-area-inset-bottom, 70px);
 }
-.f_txt{
-    
-        width: 100%;
-        display: block;
-        color: #414e5a;
-        font-size: 10px;
-        font-weight: 500;
-        margin-top: 3px;
-      
-    
+
+.f_txt {
+
+    width: 100%;
+    display: block;
+    color: #414e5a;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 3px;
+
+
 }
-  
+
 .animated-heading {
     animation-name: slide-in;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
-   
-  }
+
+
+}
 
 @keyframes slide-in {
     0% {
-      transform: translateY(0%);
-    
+        transform: translateY(0%);
+
     }
+
     40% {
         transform: translateY(0%);
-      
-      }
-      60% {
-        transform: translateY(-50%);
-      
-      }
-    100% {
-      transform: translateY(-50%);
-     
+
     }
-  }
+
+    60% {
+        transform: translateY(-50%);
+
+    }
+
+    100% {
+        transform: translateY(-50%);
+
+    }
+}
 
 
 @media screen and (max-width: 976px) {
     .a_ul {
-  display: none;
+        display: none;
     }
-   
-  }
-@media screen and (min-width: 768px) {
-   
-   
-  }
+
+}
+
+@media screen and (min-width: 768px) {}
 
 
-@media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1450px;
-}}
+@media (min-width: 1400px) {
 
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1450px;
+    }
+}
