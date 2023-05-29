@@ -150,38 +150,93 @@ a.icon:hover{
     display: flex;
 }
 
+a.clr1>img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.4s;
+}
+
+ .clr1>img:hover{
+    transform: scale3d(1.1,1.1,1)
+
+ }
+ .clr1 .h3{
+    transform-origin: left bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.6s;
+}
+
+ a.clr1:hover h3 {
+    transform: scale3d(1.1,1.1,1)
+
+ }
 
 
- .clr1{
-    background-color:#0F7DD8 ;
- }
- div.clr1_hover>a.clr1:hover{
-    background-color:#0F7DD8 ;
+ a.clr2>img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.4s;
+}
+
+ .clr2>img:hover{
+    transform: scale3d(1.1,1.1,1)
 
  }
- .clr2{
-    background-color:#2654A1 ;
+ .clr2 .h3{
+    transform-origin: left bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.6s;
+}
+
+ a.clr2:hover h3 {
+    transform: scale3d(1.1,1.1,1)
+
  }
- div.clr1_hover>a.clr2:hover{
-    background-color:#2654A1 ;
+ a.clr3>img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.4s;
+}
+
+ .clr3>img:hover{
+    transform: scale3d(1.1,1.1,1)
+
+ }
+ .clr3 .h3{
+    transform-origin: left bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.6s;
+}
+
+ a.clr3:hover h3 {
+    transform: scale3d(1.1,1.1,1)
+
  }
 
- .clr3{
-    background-color:#6769D0 ;
- }
- div.clr1_hover>a.clr3:hover{
-    
-    background-color:#6769D0 ;
- }
- 
 
- .clr4{
-    background-color:#00AC7D ;
+ a.clr4>img{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.4s;
+}
+
+ .clr4>img:hover{
+    transform: scale3d(1.1,1.1,1)
+
  }
- div.clr1_hover>a.clr4:hover{
-    
-    background-color:#00AC7D ;
+ .clr4 .h3{
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.6s;
+}
+
+ a.clr4:hover h3 {
+    transform: scale3d(1.1,1.1,1)
+
  }
+
+
+
 
 
  .a_m55font{
@@ -277,9 +332,35 @@ div.ftr6 >a:hover{
       
     
 }
+  
+.animated-heading {
+    animation-name: slide-in;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+   
+  }
 
-
-
+@keyframes slide-in {
+    0% {
+      transform: translateY(0%);
+    
+    }
+    40% {
+        transform: translateY(0%);
+      
+      }
+      60% {
+        transform: translateY(-50%);
+      
+      }
+    100% {
+      transform: translateY(-50%);
+     
+    }
+  }
 
 
 @media screen and (max-width: 976px) {
