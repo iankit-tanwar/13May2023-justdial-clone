@@ -1,19 +1,13 @@
 body {
     background-color: #E8E8E8;
    
-    
+   
 }
 
-@font-face {
-    font-family: myFirstFont;
-    src: url(/) format("truetype");
-    font-weight: bold;
-  }
-  body,.a_schfont,button, input, select, textarea {
-    font-family: "Poppins",sans-serif;
-    
-  
+.a_schfont{
+    font-family: 'Poppins', sans-serif;
 }
+ 
 .a_tbdr {
     border: 1px dashed red;
 }
