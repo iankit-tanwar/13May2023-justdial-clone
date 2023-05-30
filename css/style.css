@@ -367,6 +367,31 @@ div.ftr6>a:hover {
 
 
 }
+.a_srchbar{
+    position: fixed ;
+   top: 1%;
+   width: 50%;
+    
+}
+.a_scrlbtn{
+   
+
+    animation: scrl 1s infinite;
+    
+
+}
+
+@keyframes scrl {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
 
 @keyframes slide-in {
     0% {
