@@ -6,7 +6,7 @@ body {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(/fonts/Braah_One\,Dancing_Script\,Poppins/Poppins) format("truetype");
+    src: url(/) format("truetype");
     font-weight: bold;
   }
   body,.a_schfont,button, input, select, textarea {
