@@ -1,7 +1,18 @@
 body {
     background-color: #E8E8E8;
+   
+    
 }
 
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/Braah_One\,Dancing_Script\,Poppins/Poppins) format("truetype");
+    font-weight: bold;
+  }
+  .a_schfont,button, input, select, textarea {
+    font-family: "Poppins",sans-serif;
+  
+}
 .a_tbdr {
     border: 1px dashed red;
 }

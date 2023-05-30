@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> justdial</title>
+  <title> Justdial - Local Search, Social, News, Videos, Shopping</title>
   <link rel="icon" href="https://www.justdial.com/favicon.ico" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -18,8 +18,8 @@
 
 <body>
   <!---button scrl-->
-  <button class="btn  btn-sm a_scrlbtn btn-light rounded-5 border border-dark-subtle position-fixed bottom end-0 p-0 "
-    style="bottom: 50px; "><img class="img-fluid"
+  <button class="btn  btn-sm a_scrlbtn btn-light rounded-5 border border-light-subtle position-fixed bottom end-0 p-0 "
+    style="bottom: 50px; right: 10px !important; "><img class="img-fluid"
       src="https://akam.cdn.jdmagicbox.com/images/icontent/jdmart/gojd_backtop_icon.svg" /></button>
 
   <!-- Scrollable modal -->
@@ -204,7 +204,7 @@
               <li class="nav-item">
                 <a href="#" class="nav-link ps-2 pe-2 " data-bs-toggle="modal" data-bs-target="#exampleModal"><img
                     class="" src="./img/nav img/burgericnew.svg"></a>
-              </li> 
+              </li>
 
             </ul>
           </div>
@@ -240,12 +240,13 @@
                 <a class=" ps-2 pe-2 pt-1 pb-1 nav-link text-secondary-emphasis" href="#">Inverstor relation</a>
               </li>
               <li class="nav-item d-flex align-items-center ">
-                
+
                 <a class=" ps-2 pe-2 pt-0 pb-0 nav-link text-secondary-emphasis "><img class="me-1"
                     src="./img/nav img/nav_advertise_icon.svg" /> Advertise</a>
               </li>
               <li class="nav-item position-relative ">
-                <span class="bg-danger  position-absolute text-white ps-1 pe-1 " style="bottom: 25px; left: 35px; font-size:10px; font-weight: 600;">Business</span>
+                <span class="bg-danger  position-absolute text-white ps-1 pe-1 fw-bold "
+                  style="bottom: 25px; left: 35px; font-size:10px; font-weight: 600;">Business</span>
                 <a class=" ps-2 pe-2 pt-0 pb-0  nav-link text-secondary-emphasis"><img class="me-1"
                     src="./img/nav img/nav_listing_icon.svg" />Free Listing</a>
               </li>
@@ -497,11 +498,11 @@
             <div class="col-8 p-0  h-100">
               <div class="row  m-0  " style="overflow: hidden ; height: 45px;">
                 <div class="col-auto ms-3 p-0  d-flex justify-content-end ">
-                  <h3 class="  pe-1 mt-0 me-0  fw-bold">
+                  <h3 class="  pe-1 mt-0 me-0  fw-bold a_schfont">
                     Search across
                   </h3>
                 </div>
-                <div class="col-auto ps-0 animated-heading  ">
+                <div class="col-auto ps-0 animated-heading a_schfont ">
                   <h3 class="fw-bold ">‘3.4 Crore+’ <span class=" text-primary fs-3 fw-semibold">Businesses</span></h3>
                   <h3 class=" fw-bold">‘Crore+’ <span class=" text-primary fs-3 fw-semibold ">Products & Services</span>
                   </h3>
@@ -510,7 +511,7 @@
 
               <div class="row m-0    " style="z-index: 10000; ">
                 <div class="col-4  ">
-                  <div class="row m-0 rounded-2 border border-dark" style="background: #E8E8E8 ;">
+                  <div class="row m-0 rounded-2 shadow-sm border border-dark" style="background: #E8E8E8 ;">
                     <div class="col-1 d-flex align-items-center">
                       <i class="fa-solid fa-location-dot"></i>
                     </div>
@@ -525,7 +526,7 @@
 
                 <div class="col-8  ">
                   <div class="row  d-flex align-items-center ">
-                    <div class="col d-flex align-items-center rounded-2 " style=" border: 1px solid black;">
+                    <div class="col d-flex align-items-center rounded-2 shadow-sm" style=" border: 1px solid black;">
                       <input type="text" class="form-control shadow-none border-0 " style="height: 49px;"
                         placeholder="Search for Restaurants" aria-label="Last name">
                       <button class="btn btn-sm border-0 ">
@@ -887,68 +888,77 @@
                 <h5 class="mt-2 pb-2 ms-3">Wedding Requisites</h5>
 
                 <div class="col-4 ">
-                  <figure>
-                    <img class="img-fluid"
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_banquethall.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Banquet Halls</figcaption>
-                  </figure>
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Banquet Halls</span>
+
                 </div>
 
 
                 <div class="col-4 ">
-                  <figure>
-                    <img class="img-fluid"
+
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_bridalrequisites.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Bridal Requisite</figcaption>
-                  </figure>
-                </div>
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Bridal Requisite</span>
+                  </div>
+                   
 
                 <div class="col-4  ">
-
-                  <figure>
-                    <img class="img-fluid"
+                  
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_caterers.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Caterers</figcaption>
-                  </figure>
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Caterers</span>
+                  </div>
                 </div>
-              </div>
+              
 
 
             </div>
             <div class="col-6 mt-5 a_curser p-0">
               <div class="row border border-light-subtle rounded-4 ms-3 mt-2 m-0 p-2">
                 <h5 class="mt-2 pb-2 ms-3">Beauty & Spa</h5>
-                <div class="col-4 ">
-
-                  <figure>
-                    <img class="img-fluid"
+                
+                
+                
+                <div class="col-4  ">
+                  
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_beautyparlour.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Beauty Parlours</figcaption>
-                  </figure>
-                </div>
-
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Beauty Parlours</span>
+                  </div>
+               
+                
+               
 
                 <div class="col-4  ">
-                  <figure>
-                    <img class="img-fluid"
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_spamassage.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Spa & Massages</figcaption>
-                  </figure>
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Spa & Massages</span>
                 </div>
 
                 <div class="col-4  ">
-                  <figure>
-                    <img class="img-fluid"
-                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_salons.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Salons</figcaption>
-                  </figure>
 
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
+                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_salons.png?w=256&q=75"
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Salons</span>
                 </div>
               </div>
 
@@ -958,68 +968,73 @@
               <div class="row border border-light-subtle rounded-4 mt-2  m-0 p-2">
                 <h5 class="mt-2 pb-2 ms-3">Jd Xperts - Home Services</h5>
                 <div class="col-4  ">
-                  <figure>
-                    <img class="img-fluid"
-                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_acrepair.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">AC Repair</figcaption>
-                  </figure>
-                </div>
-                <div class="col-4 ">
-                  <figure>
-                    <img class="img-fluid"
-                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_refrigeratorrepair.png?w=256&q=75"
-                      alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Refrigerator Repair</figcaption>
-                  </figure>
 
+                  <div class="card rounded-4" style="width: 12rem;">
+                    <img
+                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_acrepair.png?w=256&q=75"
+                      class="card-img-top img-fluid" alt="...">
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">AC Repair</span>
                 </div>
+                
+
+                <div class="col-4 ">
+                
+                <div class="card rounded-4" style="width: 12rem;">
+                  <img
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_refrigeratorrepair.png?w=256&q=75"
+                    class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <span class="card-title text-center d-block  pt-3">Refrigerator Repair</span>
+              </div>
 
                 <div class="col-4  ">
 
-                  <figure>
+                  <div class="card rounded-4" style="width: 12rem;">
                     <img class="img-fluid"
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_pestcontrol_2x.png?w=256&q=75"
                       alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Pest control services</figcaption>
-                  </figure>
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Pest control services</span>
                 </div>
               </div>
+
+             
 
 
             </div>
             <div class="col-6 mt-5 a_curser p-0">
-              <div class="row border border-light-subtle rounded-4 ms-3 mt-2 m-0 p-2">
+              <div class="row border border-light-subtle rounded-4 ms-3 mt-1 m-0 p-2">
                 <h5 class="mt-3 pb-2 ms-3">Daily Needs</h5>
                 <div class="col-4  ">
 
-                  <figure>
+                  <div class="card rounded-4" style="width: 12rem;">
                     <img class="img-fluid"
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_movies.png?w=256&q=75"
                       alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Movies</figcaption>
-                  </figure>
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Movies</span>
 
                 </div>
                 <div class="col-4  ">
 
-                  <figure>
+                  <div class="card rounded-4" style="width: 12rem;">
                     <img class="img-fluid"
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_grocery.png?w=256&q=75"
                       alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Grocery</figcaption>
-                  </figure>
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Grocery</span>
 
                 </div>
 
                 <div class="col-4  ">
 
-                  <figure>
+                  <div class="card rounded-4" style="width: 12rem;">
                     <img class="img-fluid"
                       src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hkim_electrician.png?w=256&q=75"
                       alt="Trulli" style="width:100%">
-                    <figcaption class="text-center mt-2">Electricians</figcaption>
-                  </figure>
+                    </div>
+                    <span class="card-title text-center d-block  pt-3">Electricians</span>
 
                 </div>
               </div>
@@ -1334,11 +1349,11 @@
         </div>
 
         <!---large main 7-->
-        <div class="row a_m77 mt-3">
+        <div class="row a_m77 mt-3 m-0">
 
 
           <div class="d-grid gap-2 col-4 mx-auto">
-            <button class="btn btn-light border border-light-grey pt-2 pb-2  text-primary " type="button" style="">Load
+            <button class="btn btn-light border border-light-grey pt-2 pb-2  text-primary " type="button">Load
               More</button>
 
           </div>
@@ -1389,65 +1404,65 @@
 
 
         <!---large scrn footer1-->
-        <div class="footer_1  border-top m-3 m-0 pt-5 pb-5">
+        <div class="footer_1  border-top   p-4">
           <h5 class="text-dark">Popular Categories</h5>
-          <a href="#" class="  ftr_font p-0">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0">Cinema Halls|</a>
-          <a href="#" class="  ftr_font p-0 ">BSchools|</a>
-          <a href="#" class="  ftr_font p-0 ">Beauty Spas|</a>
-          <a href="#" class="  ftr_font p-0 ">Dermatologists|</a>
-          <a href="#" class="  ftr_font p-0 ">Hospitals|</a>
-          <a href="#" class="  ftr_font p-0 ">Malls|</a>
-          <a href="#" class="  ftr_font p-0 ">Gyms|</a>
-          <a href="#" class="  ftr_font p-0 ">Banquet Halls|</a>
-          <a href="#" class="  ftr_font p-0 ">Beauty Parlours|</a>
-          <a href="#" class="  ftr_font p-0 ">ENT Doctors|</a>
-          <a href="#" class="  ftr_font p-0 ">Book Shops|</a>
-          <a href="#" class="  ftr_font p-0 ">Bike On Rent|</a>
-          <a href="#" class="  ftr_font p-0 ">Sexologist Doctors|</a>
-          <a href="#" class="  ftr_font p-0 ">Neurologists|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0">Cinema Halls|</a>
-          <a href="#" class="  ftr_font p-0 ">BSchools|</a>
-          <a href="#" class="  ftr_font p-0 ">Beauty Spas|</a>
-          <a href="#" class="  ftr_font p-0 ">Dermatologists|</a>
-          <a href="#" class="  ftr_font p-0 ">Hospitals|</a>
-          <a href="#" class="  ftr_font p-0 ">Malls|</a>
-          <a href="#" class="  ftr_font p-0 ">Gyms|</a>
-          <a href="#" class="  ftr_font p-0 ">Banquet Halls|</a>
-          <a href="#" class="  ftr_font p-0 ">Beauty Parlours|</a>
-          <a href="#" class="  ftr_font p-0 ">ENT Doctors|</a>
-          <a href="#" class="  ftr_font p-0 ">Book Shops|</a>
-          <a href="#" class="  ftr_font p-0 ">Bike On Rent|</a>
-          <a href="#" class="  ftr_font p-0 ">Sexologist Doctors|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres|</a>
-          <a href="#" class="  ftr_font p-0 ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle">Cinema Halls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">BSchools</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Beauty Spas</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Dermatologists</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Hospitals</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Malls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Gyms</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Banquet Halls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Beauty Parlours</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">ENT Doctors</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Book Shops</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Bike On Rent</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Sexologist Doctors</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Neurologists</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle">Cinema Halls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">BSchools</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Beauty Spas</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Dermatologists</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Hospitals</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Malls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Gyms</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Banquet Halls</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Beauty Parlours</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">ENT Doctors</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Book Shops</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Bike On Rent</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Sexologist Doctors</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
+          <a href="#" class="  ftr_font pe-1 border-end border-dark-subtle ">Body Massage Centres</a>
 
 
 
@@ -1480,7 +1495,7 @@
         </div>
         <!---large scrn footer3-->
         <div class="footer_3 border-top   ">
-          <div class="mt-4 ms-3 ftr_font pt-3 pb-3">
+          <div class="mt-4 p-4 ftr_font pt-3 pb-3">
 
             <p>
               Welcome to Justdial, your 'one stop shop' where you are assisted with day-to-day and exclusive planning
@@ -1507,8 +1522,8 @@
           </div>
 
 
-          <h5 class="ms-3">Some of our services that will prove useful to you on a day-to-day basis are :</h5>
-          <div class="row   m-0">
+          <h5 class="ms-4">Some of our services that will prove useful to you on a day-to-day basis are :</h5>
+          <div class="row   m-0 p-2">
             <div class="col-3  ps-3 pe-3 mt-5  ">
               <span class="ftr3">
                 <img
@@ -1744,8 +1759,8 @@
         <!---large scrn footer4-->
         <div class="footer_4 border-top p-4">
           <div class="row m-0">
-            <div class="col-3 p-0">
-              <h5 class="pb-3">Quick Links</h5>
+            <div class="col-3 p-2">
+              <h5 class="pb-3 ">Quick Links</h5>
               <div class="row mb-5">
                 <div class="col d-flex ftr5 flex-column mb-4">
                   <a href="" class="ftr_font pb-3  ">About us</a>
@@ -1770,7 +1785,7 @@
               </div>
 
             </div>
-            <div class="col-9">
+            <div class="col-9 p-2">
               <h5 class="pb-3">Jd Verticals</h5>
               <div class="row mb-5">
 
