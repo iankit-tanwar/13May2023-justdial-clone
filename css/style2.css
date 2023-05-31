@@ -28,3 +28,20 @@ body{
 .spnclr{
     background-color: #3EBD46;
 }
+.a_font12 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.a_font14{
+    font-weight: 400;
+    font-size: 14px;
+   
+}
+.a_rating{
+    color: #777;
+
+}
+.a_opn{
+    color: #339d3a;;
+}
