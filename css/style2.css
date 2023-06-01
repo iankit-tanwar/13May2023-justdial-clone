@@ -1,6 +1,13 @@
 body {
     background-color: #E8E8E8;
 }
+.a_btn{
+    background: #339d3a;
+}
+.a_btn:hover{
+    background: #027c0a;
+
+}
 
 .cntr {
     min-height: 1000px;
@@ -9,6 +16,9 @@ body {
 .a_tbdr {
     border: 1px dashed red;
 
+}
+::placeholder{
+    
 }
 
 .font11 {
@@ -38,7 +48,7 @@ body {
 }
 
 .spnclr {
-    background-color: #027c0a;
+    background-color: #339d3a;
 }
 
 .a_font12 {
