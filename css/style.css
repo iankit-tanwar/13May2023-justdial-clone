@@ -1,13 +1,15 @@
 body {
     background-color: #E8E8E8;
-   
-   
+
+
 }
 
-.a_schfont,h3,h4{
+.a_schfont,
+h3,
+h4 {
     font-family: 'Poppins', sans-serif;
 }
- 
+
 .a_tbdr {
     border: 1px dashed red;
 }
@@ -175,6 +177,129 @@ a.icon:hover {
 .flexbox {
     flex-wrap: wrap;
     display: flex;
+}
+
+
+
+.ab2bhvr {
+
+    transition: all linear 0.3s;
+    left: -50px !important;
+
+}
+
+.ab2bhvr3 {
+
+    transition: all linear 0.3s;
+    left: -50px !important;
+
+}
+
+.ab2bhvr4 {
+
+    transition: all linear 0.3s;
+    left: -50px !important;
+
+
+}
+
+.ab2bhvr5 {
+
+    transition: all linear 0.3s;
+    left: -50px !important;
+
+}
+
+a.clr1:hover .ab2bhvr {
+    transform: scale3d(1.1 1.1);
+    background-color: #fff;
+    left: 0px !important;
+    color: #0F7DD8;
+
+
+}
+
+a.clr2:hover .ab2bhvr3 {
+    transform: scale3d(1.1 1.1);
+    background-color: #fff;
+    left: 0px !important;
+    color: #0F7DD8;
+
+
+}
+
+a.clr3:hover .ab2bhvr4 {
+    transform: scale3d(1.1 1.1);
+    background-color: #fff;
+    left: 0px !important;
+    color: #0F7DD8;
+
+
+}
+
+a.clr4:hover .ab2bhvr5 {
+    transform: scale3d(1.1 1.1);
+    background-color: #fff;
+    left: 0px !important;
+    color: #0F7DD8;
+
+
+}
+a:hover .a_icnhvr {
+    color: #007aff;
+}
+a:hover .a_icnhvr2 {
+    color: #2654A1;
+}
+a:hover .a_icnhvr3 {
+    color: #00AB7D;
+}
+a:hover .a_icnhvr4 {
+    color: #6769D0;
+}
+
+a.clr1:hover .ab2bhvr {
+
+    color: #0F7DD8;
+
+}
+
+a.clr2:hover .ab2bhvr3 {
+
+    color: #2654A1;
+
+}
+
+a.clr3:hover .ab2bhvr4 {
+
+    color: #00AB7D;
+
+}
+
+a.clr4:hover .ab2bhvr5 {
+
+    color: #6769D0;
+
+}
+
+.ab2bhvr {
+    background-color: #0F7DD8;
+    color: #fff;
+}
+
+.ab2bhvr3 {
+    background-color: #2654A1;
+    color: #fff;
+}
+
+.ab2bhvr4 {
+    background-color: #00AC7D;
+    color: #fff;
+}
+
+.ab2bhvr5 {
+    background-color: #6769D0;
+    color: #fff;
 }
 
 a.clr1>img {
@@ -363,7 +488,7 @@ div.ftr6>a:hover {
     margin-top: 3px;
 
 
-} 
+}
 
 .animated-heading {
     animation-name: slide-in;
@@ -374,30 +499,34 @@ div.ftr6>a:hover {
 
 
 }
-.a_srchbar{
-    position: fixed ;
-   top: 1%;
-   width: 50%;
-    
+
+.a_srchbar {
+    position: fixed;
+    top: 1%;
+    width: 50%;
+
 }
-.a_scrlbtn{
-   
+
+.a_scrlbtn {
+
 
     animation: scrl 1s infinite;
-    
+
 
 }
 
 @keyframes scrl {
     0% {
         transform: scale(1);
-      }
-      50% {
+    }
+
+    50% {
         transform: scale(1.2);
-      }
-      100% {
+    }
+
+    100% {
         transform: scale(1);
-      }
+    }
 }
 
 @keyframes slide-in {
