@@ -17,8 +17,19 @@ body {
     border: 1px dashed red;
 
 }
-::placeholder{
+.smfont10 {
+    font-size: calc(10px + .15vw);
+}
+.smfont8 {
+    font-size: calc(8px + .15vw);
+    font-weight: 600;
+}
+.smfont11 {
+    font-size: calc(11px + .15vw);
     
+}
+.smfont13 {
+    font-size: calc(13px + .15vw);
 }
 
 .font11 {
