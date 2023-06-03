@@ -515,6 +515,51 @@ div.ftr6>a:hover {
 
 }
 
+.a_pop_slider{
+    width: 7000px;
+    height: 260px;
+}
+.a_pop_li{
+    width: 436px;
+    height: 230px;
+}
+
+.a_pop_li{
+    animation-name: popslider;
+    animation-duration: 20s;
+    animation-timing-function: infinite;
+    animation-iteration-count: linear;
+    animation-direction: alternate;
+}
+
+@keyframes popslider{
+    0%{  transform: translateX(0px); }
+    7%{  transform: translateX(-465px); }
+    7%{  transform: translateX(-465px); }
+    14%{  transform: translateX(-935px); }
+    14%{  transform: translateX(-935px); }
+    21%{ transform: translateX(-1400px); }
+    21%{ transform: translateX(-1400px); }
+    28%{ transform: translateX(-1860px); }
+    28%{ transform: translateX(-1860px);}
+    35%{ transform: translateX(-2340px);}
+    35%{ transform: translateX(-2340px);}
+    42%{ transform: translateX(-2800px); }
+    42%{ transform: translateX(-2800px); }
+    49%{ transform: translateX(-3265px); }
+    49%{ transform: translateX(-3265px); }
+    56%{ transform: translateX(-3735px); }
+    56%{ transform: translateX(-3735px); }
+    63%{ transform: translateX(-4200px); }
+    63%{ transform: translateX(-4200px); }
+    70%{ transform: translateX(-4665px); }
+    70%{ transform: translateX(-4665px); }
+    77%{ transform: translateX(-5135px); }
+    77%{ transform: translateX(-5135px); }
+    100%{ transform: translateX(0px); }
+   
+}
+
 @keyframes scrl {
     0% {
         transform: scale(1);
