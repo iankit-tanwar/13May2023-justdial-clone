@@ -536,26 +536,26 @@ div.ftr6>a:hover {
     0%{  transform: translateX(0px); }
     7%{  transform: translateX(-465px); }
     7%{  transform: translateX(-465px); }
-    14%{  transform: translateX(-935px); }
-    14%{  transform: translateX(-935px); }
-    21%{ transform: translateX(-1400px); }
-    21%{ transform: translateX(-1400px); }
-    28%{ transform: translateX(-1860px); }
-    28%{ transform: translateX(-1860px);}
-    35%{ transform: translateX(-2340px);}
-    35%{ transform: translateX(-2340px);}
-    42%{ transform: translateX(-2800px); }
-    42%{ transform: translateX(-2800px); }
-    49%{ transform: translateX(-3265px); }
-    49%{ transform: translateX(-3265px); }
-    56%{ transform: translateX(-3735px); }
-    56%{ transform: translateX(-3735px); }
-    63%{ transform: translateX(-4200px); }
-    63%{ transform: translateX(-4200px); }
-    70%{ transform: translateX(-4665px); }
-    70%{ transform: translateX(-4665px); }
-    77%{ transform: translateX(-5135px); }
-    77%{ transform: translateX(-5135px); }
+    14%{  transform: translateX(-960px); }
+    14%{  transform: translateX(-960px); }
+    21%{ transform: translateX(-1450px); }
+    21%{ transform: translateX(-1450px); }
+    28%{ transform: translateX(-1900px); }
+    28%{ transform: translateX(-1900px);}
+    35%{ transform: translateX(-2400px);}
+    35%{ transform: translateX(-2400px);}
+    42%{ transform: translateX(-2900px); }
+    42%{ transform: translateX(-2900px); }
+    49%{ transform: translateX(-3350px); }
+    49%{ transform: translateX(-3350px); }
+    56%{ transform: translateX(-3868px); }
+    56%{ transform: translateX(-3868px); }
+    63%{ transform: translateX(-4350px); }
+    63%{ transform: translateX(-4350px); }
+    70%{ transform: translateX(-4810px); }
+    70%{ transform: translateX(-4810px); }
+    77%{ transform: translateX(-5310px); }
+    77%{ transform: translateX(-5310px); }
     100%{ transform: translateX(0px); }
    
 }
