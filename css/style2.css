@@ -8,6 +8,31 @@ body {
     background: #027c0a;
 
 }
+.a_btn2{
+   
+visibility: hidden;
+height: 50px;
+}
+.a_btn3{
+    transform: translateX(-15px);
+}
+.btnscl:hover .a_btn3{
+    visibility: hidden;
+
+}
+
+.btnscl:hover .a_btn2{
+    transform: translateX(-15px);
+    visibility: visible;
+  
+    transition-duration: 0.5s;
+   
+    
+    
+    
+
+
+}
 
 .cntr {
     min-height: 1000px;
@@ -106,6 +131,6 @@ body {
     .container-md,
     .container-sm,
     .container-xl {
-        max-width: 1450px;
+        max-width: 1440px;
     }
 }
