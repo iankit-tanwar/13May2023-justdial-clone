@@ -189,7 +189,7 @@ a.icon:hover {
 
     transition: all linear 0.3s;
 
-    left: -49px !important;
+    left: -43px !important;
 
 
 }
@@ -197,14 +197,14 @@ a.icon:hover {
 .ab2bhvr3 {
 
     transition: all linear 0.3s;
-    left: -50px !important;
+    left: -43px !important;
 
 }
 
 .ab2bhvr4 {
 
     transition: all linear 0.3s;
-    left: -50px !important;
+    left: -43px !important;
 
 
 }
@@ -212,7 +212,7 @@ a.icon:hover {
 .ab2bhvr5 {
 
     transition: all linear 0.3s;
-    left: -50px !important;
+    left: -43px !important;
 
 }
 
@@ -453,7 +453,9 @@ div.ftr6>a:hover {
     color: #0F7DD8;
     text-decoration: underline;
 }
-
+.a_font12{
+    font-size: 12px;
+}
 
 
 .a_times_fonts {
