@@ -2,7 +2,7 @@ body {
     background-color: #E8E8E8;
 }
 .cntr{
-    min-height: 1000px;
+    min-height: 2500px;
 }
 .a_tbdr{
     border: 1px dashed red;
@@ -16,6 +16,10 @@ body {
 .a_btn2:hover{
     background: #339d3a;
 }
+.onhvr:hover{
+    background-color: #dedede;
+}
+
 
 .font11 {
 
@@ -31,6 +35,10 @@ body {
 .a_font15 {
     font-size: 15px;
     font-weight: 500;
+}
+.a_font14 {
+    font-size: 14px;
+    font-weight: 400;
 }
 .a_font18 {
     font-size: 18px;
