@@ -7,6 +7,15 @@ body {
 .a_tbdr{
     border: 1px dashed red;
 }
+.a_btn{
+    background: #339d3a;
+}
+.a_btn2{
+    background: #339d3a;
+}
+.a_btn2:hover{
+    background: #339d3a;
+}
 
 .font11 {
 
@@ -15,6 +24,19 @@ body {
     color: #111;
 
 }
+.a_font12 {
+    font-size: 12px;
+    font-weight: 500;
+}
+.a_font15 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.a_font18 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 
 
