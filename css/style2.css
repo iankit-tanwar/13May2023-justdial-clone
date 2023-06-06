@@ -120,6 +120,13 @@ ul> li{
     color: #111;
     text-decoration: none;
 }
+.clr111{
+    color: #111;
+}
+.onhvr:hover{
+    background-color: #dedede;
+}
+
 
 .a_hvr:hover {
     color: #0F7DD8;
