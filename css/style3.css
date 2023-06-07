@@ -36,6 +36,9 @@ body {
     font-size: 15px;
     font-weight: 500;
 }
+.font13 {
+    font-size: calc(13px + .15vw);
+}
 .a_font14 {
     font-size: 14px;
     font-weight: 400;
