@@ -22,6 +22,9 @@ header {
 
 
 }
+.ggp{
+    gap: 15px 0px;
+}
 
 .a_header_logoo {
     margin-top: 10px;
@@ -124,6 +127,36 @@ a.icon:hover {
     visibility: hidden !important;
 }
 
+
+.imgboxsize{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    transform-origin: center center;
+  
+}
+
+.boximg:hover .imgboxsize > img {
+    transform: scale3d(1.10, 1.10, 1.10);
+    transition: transform 0.4s linear;
+}
+.boximg:not(:hover) img{
+    transition: transform 0.4s linear;
+  }
+  
+.imgboxsize2 :hover span img {
+    transform: scale3d(1.10, 1.10, 1.10);
+    transition: transform 0.4s linear;
+
+  }
+
+  .imgboxsize2:not(:hover) span img{
+    transition: transform 0.4s linear;
+  }
+  
+
+
+
 .a_ccp {
     left: 10px;
 }
@@ -161,10 +194,17 @@ a.icon:hover {
 }
 
 .box_size {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 
 
+}
+.span_font {
+    font-size: 13px;
+    color: #339d3a;
+    font-weight: 400!important;
+    
+    
 }
 
 .flex-container {
