@@ -49,6 +49,18 @@ body {
 }
 
 
+.imgboxsize3 :hover  img {
+    transform: scale3d(1.10, 1.10, 1.10);
+    transition: transform 0.4s linear;
+
+  }
+
+  .imgboxsize3:not(:hover)  img{
+    transition: transform 0.4s linear;
+  }
+  
+
+
 
 
 
