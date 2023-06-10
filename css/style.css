@@ -261,9 +261,8 @@ a.clr1:hover .ab2bhvr {
     left: -0px !important;
     color: #0F7DD8;
     transform-origin: left center;
-
-
 }
+
 
 a.clr2:hover .ab2bhvr3 {
     transform: scale3d(1.1 1.1);
@@ -527,7 +526,7 @@ div.ftr6>a:hover {
     background-color: #fff;
     border-top: 1px solid #e4eaef;
     z-index: 7;
-    bottom: env(safe-area-inset-bottom, 70px);
+   
 }
 
 .f_txt {
@@ -580,8 +579,6 @@ div.ftr6>a:hover {
 .a_pop_li {
     animation-name: popslider;
     animation-duration: 20s;
-    animation-timing-function: infinite;
-    animation-iteration-count: linear;
     animation-direction: alternate;
 }
 
