@@ -134,7 +134,7 @@ ul> li{
 
 }
 
-.imgboxsize3 :hover .immghvr >span img {
+.imgboxsize3 :hover .target-div >img  {
     transform: scale3d(1.10, 1.10, 1.10);
     transition: transform 0.4s linear;
 
