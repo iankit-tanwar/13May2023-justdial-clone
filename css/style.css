@@ -255,8 +255,8 @@ a.icon:hover {
 
 }
 
-a.clr1:hover .ab2bhvr {
-    transform: scale3d(1.1 1.1);
+a.clr1:hover  .ab2bhvr {
+   
     background-color: #fff;
     left: -0px !important;
     color: #0F7DD8;
@@ -264,8 +264,11 @@ a.clr1:hover .ab2bhvr {
 }
 
 
+
+
+
 a.clr2:hover .ab2bhvr3 {
-    transform: scale3d(1.1 1.1);
+   
     background-color: #fff;
     left: 0px !important;
     color: #0F7DD8;
@@ -274,7 +277,7 @@ a.clr2:hover .ab2bhvr3 {
 }
 
 a.clr3:hover .ab2bhvr4 {
-    transform: scale3d(1.1 1.1);
+    
     background-color: #fff;
     left: 0px !important;
     color: #0F7DD8;
@@ -283,7 +286,7 @@ a.clr3:hover .ab2bhvr4 {
 }
 
 a.clr4:hover .ab2bhvr5 {
-    transform: scale3d(1.1 1.1);
+    
     background-color: #fff;
     left: 0px !important;
     color: #0F7DD8;
