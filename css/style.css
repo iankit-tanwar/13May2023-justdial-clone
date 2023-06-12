@@ -263,8 +263,25 @@ a.clr1:hover  .ab2bhvr {
     transform-origin: left center;
 }
 
+ .a_input_srch:focus +  .a_srch{
+
+display: block;
 
 
+}
+
+.a_srch{
+  
+ display: none;
+ 
+}
+
+.hidden-list {
+    position: relative;
+    z-index: 2; /* Set a higher z-index for the list to bring it to the front */
+    background-color: white; /* Give it a background color if needed */
+    width: 531px;
+  }
 
 
 a.clr2:hover .ab2bhvr3 {
