@@ -280,7 +280,7 @@ display: block;
     position: relative;
     z-index: 2; /* Set a higher z-index for the list to bring it to the front */
     background-color: white; /* Give it a background color if needed */
-    width: 531px;
+    width: 534px;
   }
 
 
