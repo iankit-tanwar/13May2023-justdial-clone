@@ -26,11 +26,13 @@
     rel="stylesheet">
 
 
+
 </head>
 
-<body>
+<body onscroll="myScroll()">
   <!---button scrl-->
-  <button class="btn  btn-sm a_scrlbtn btn-light rounded-5 border border-light-subtle position-fixed bottom end-0 p-0 d-none d-md-block d-lg-block"
+  <button data-btn="a_tbn" id="mybtn"
+    class="btn btn-sm a_scrlbtn btn-light rounded-5 border border-light-subtle position-fixed bottom end-0 p-0 "
     style="bottom: 50px; right: 14px !important; "><img alt="" class="img-fluid"
       src="https://akam.cdn.jdmagicbox.com/images/icontent/jdmart/gojd_backtop_icon.svg"></button>
 
@@ -427,11 +429,11 @@
         <div class="row m-0 mt-2 ggp ">
           <div class="col-3  p-0 pt-0 text-center  d-flex justify-content-center">
             <a href="#" class="border-0 text-secondary-emphasis btn btn-sm d-block w-100 h-100 p-0 ">
-              
-                <img alt="" class=" img-fluid mx-auto d-block mt-2 " style="width: 50px;"
+
+              <img alt="" class=" img-fluid mx-auto d-block mt-2 " style="width: 50px;"
                 src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newhotkey/b2b_2x_wog-15dec.gif">
 
-              
+
               <span class=" fw600 text-center ">B2B</span>
             </a>
           </div>
@@ -446,8 +448,8 @@
             <a href="" class=" text-secondary-emphasis text-decoration-none border-0 w-100 btn btn-sm p-0  ">
               <img alt="" src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/travelbookings.svg"
                 class=" img-fluid mx-auto d-block mt-3">
-                <span class=" w-100 fw600 text-center  ">Travel</span>
-            </a> 
+              <span class=" w-100 fw600 text-center  ">Travel</span>
+            </a>
           </div>
           <div class="col-3  p-0 text-center  "><a href=""
               class=" text-secondary-emphasis text-decoration-none border-0 w-100 btn btn-sm p-0 ">
@@ -730,11 +732,11 @@
 
 
       <!-- large screen -->
-      <div class=" d-none d-md-block d-lg-block " style="padding-left: 40px; padding-right: 40px;" >
+      <div class=" d-none d-md-block d-lg-block " style="padding-left: 40px; padding-right: 40px;">
 
         <!---large main 1-->
 
-        <div class="a_m11 mt-4 " >
+        <div class="a_m11 mt-4 ">
 
           <div class="row h-100  ">
             <div class="col-8 p-0  h-100">
@@ -752,58 +754,72 @@
               </div>
 
               <div class="row m-0  clearfix  " style="z-index: 10000; ">
-                <div class="col-4  " >
+                <div class="col-4  ">
                   <div class="row m-0 rounded-2 shadow-sm border border-dark" style="background: #EEEEEE ;">
                     <div class="col-1 d-flex align-items-center">
-                      <img alt=""  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/location_icon.svg">
+                      <img alt=""
+                        src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/location_icon.svg">
                     </div>
                     <div class="col ">
-                      <input type="text" class="form-control shadow-none border-0 pt-3 pb-3 fw-medium " placeholder="New Delhi"
-                        aria-label="First name" style="height: 49px; background: #EEEEEE; ">
+                      <input type="text" class="form-control shadow-none border-0 pt-3 pb-3 fw-medium "
+                        placeholder="New Delhi" aria-label="First name" style="height: 49px; background: #EEEEEE; ">
 
                     </div>
                   </div>
 
                 </div>
 
-                <div class="col-7 border-dark border rounded-2 a_inputfoc" >
+                <div class="col-7 border-dark border rounded-2 a_inputfoc">
                   <div class="row  d-flex align-items-center ">
                     <form class=" p-0" style="height: 49px;">
                       <div class="row m-0 ">
-                          <div class="col-10 p-0 ">
-                              <input name="searchtext" class="a_input_srch form-control mt-2 shadow-none border-0 fw-semibold" placeholder="Search for Pest Control" />
-                              <ul class="a_srch mt-3  nav flex-column bg-light border border-primary-subtle rounded-1 hidden-list" >
-                                  <li class="nav-item">
-                                      <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt="" class="img-fluid me-3 " src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotels</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt="" class="img-fluid me-3 " src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotel Near Me</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt="" class="img-fluid me-3 " src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotel-Apartment</a>
-                                  </li>
-                                  <li class="nav-item">
-                                      <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt="" class="img-fluid me-3 " src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hostel</a>
-                                  </li>
-                                  
-                              </ul>
-                          </div>
-                          <div class="col-1 p-0  ">
-                            <button class="btn btn-sm  p-0 ms-2 mt-2 border-0" >
-                              <img alt="" class=" img-fluid "
-                                src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/jd_mic_icon.svg">
-                            </button>
-                          </div>
-                          <div class="col-1 p-0 " >
-                            <button type="button" onclick="localStorage.setItem('search', 'Ankit')" class="btn btn-sm border-0 mt-2 " style="background-color: #fe610c;">
-                              <img alt="" class="  img-fluid pt-1 pb-1 " 
-                                src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_white_icon.svg">
-                            </button>   
-                          </div>
+                        <div class="col-10 p-0 ">
+                          <input name="searchtext"
+                            class="a_input_srch form-control mt-2 shadow-none border-0 fw-semibold"
+                            placeholder="Search for Pest Control" />
+                          <ul
+                            class="a_srch mt-3  nav flex-column bg-light border border-primary-subtle rounded-1 hidden-list">
+                            <li class="nav-item">
+                              <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt=""
+                                  class="img-fluid me-3 "
+                                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotels</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt=""
+                                  class="img-fluid me-3 "
+                                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotel
+                                Near Me</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt=""
+                                  class="img-fluid me-3 "
+                                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hotel-Apartment</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-dark fw-semibold" aria-current="page" href="#"><img alt=""
+                                  class="img-fluid me-3 "
+                                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_black_icon.svg" />Hostel</a>
+                            </li>
+
+                          </ul>
+                        </div>
+                        <div class="col-1 p-0  ">
+                          <button class="btn btn-sm  p-0 ms-2 mt-2 border-0">
+                            <img alt="" class=" img-fluid "
+                              src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/jd_mic_icon.svg">
+                          </button>
+                        </div>
+                        <div class="col-1 p-0 ">
+                          <button type="button" onclick="localStorage.setItem('search', 'Ankit')"
+                            class="btn btn-sm border-0 mt-2 " style="background-color: #fe610c;">
+                            <img alt="" class="  img-fluid pt-1 pb-1 "
+                              src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/search_white_icon.svg">
+                          </button>
+                        </div>
                       </div>
-                      
-                     
-                  </form>
+
+
+                    </form>
 
                   </div>
                 </div>
@@ -818,346 +834,348 @@
                 class=" btn btn-sm  border-dark rounded-start-2  position-relative float-end me-5 mt-4  bg-white top-0">
                 <span class="text-dark fw-semibold">Download App</span>
                 <img alt="" class=" img-fluid border border-dark rounded-1 position-absolute bg-white"
-                src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/getapp_jd.gif"
-                style="bottom: -14px !important; right: -28px !important; z-index: 1000 !important; width: 30px;">
-                <span class="position-absolute end-0 " style="right: -16px !important; top: -17px !important; z-index: 1000 !important;"><i class="fa-sharp fa-solid fa-minus fa-2xs"></i></span>
+                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/getapp_jd.gif"
+                  style="bottom: -14px !important; right: -28px !important; z-index: 1000 !important; width: 30px;">
+                <span class="position-absolute end-0 "
+                  style="right: -16px !important; top: -17px !important; z-index: 1000 !important;"><i
+                    class="fa-sharp fa-solid fa-minus fa-2xs"></i></span>
               </button>
             </div>
           </div>
 
         </div>
-       
-          <!---large main 2-->
-          <div class="row  a_m22 mt-3 m-0   ">
-            <!-- carousel -->
-            <div class="col-6 p-0 pe-3">
 
-              <div id="carouselExampleAutoplaying" class="carousel slide  slider" data-bs-ride="carousel">
-                <div class="carousel-indicators ">
-                  <button type="button" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0"
-                    class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2" class="rounded-circle"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3 " class="rounded-circle"></button>
+        <!---large main 2-->
+        <div class="row  a_m22 mt-3 m-0   ">
+          <!-- carousel -->
+          <div class="col-6 p-0 pe-3">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide  slider" data-bs-ride="carousel">
+              <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExampleIndicators " data-bs-slide-to="0"
+                  class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2" class="rounded-circle"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3 " class="rounded-circle"></button>
+              </div>
+              <div class="carousel-inner   rounded-4">
+                <div class="carousel-item   active ">
+                  <img alt=""
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_hotels.png?v=1.0"
+                    class="d-block   img-fluid w-100 " style=" max-height: 240px;">
                 </div>
-                <div class="carousel-inner   rounded-4">
-                  <div class="carousel-item   active ">
-                    <img alt=""
-                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_hotels.png?v=1.0"
-                      class="d-block   img-fluid w-100 " style=" max-height: 240px;">
-                  </div>
-                  <div class="carousel-item  ">
-                    <img alt="" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_CCTV.png"
-                      class="d-block   img-fluid w-100 " style=" max-height: 240px;">
-                  </div>
-                  <div class="carousel-item  ">
-                    <img alt=""
-                      src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_interiordesigners.png"
-                      class="d-block   img-fluid w-100 " style=" max-height: 240px;">
-                  </div>
+                <div class="carousel-item  ">
+                  <img alt="" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_CCTV.png"
+                    class="d-block   img-fluid w-100 " style=" max-height: 240px;">
                 </div>
-                <button class="carousel-control-prev  a_ccp top-50 rounded-circle " type="button"
-                  data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon  w-50" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next a_ccn top-50 rounded-circle" type="button"
-                  data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon w-50" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item  ">
+                  <img alt=""
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/banner_interiordesigners.png"
+                    class="d-block   img-fluid w-100 " style=" max-height: 240px;">
+                </div>
+              </div>
+              <button class="carousel-control-prev  a_ccp top-50 rounded-circle " type="button"
+                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon  w-50" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next a_ccn top-50 rounded-circle" type="button"
+                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon w-50" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <!-- col imgs -->
+          <div class="col-6 p-0 d-flex align-items-start clr1_hover ">
+
+
+            <a href="#" class="btn btn-sm rounded-4 clr1 p-0 border-0 position-relative overflow-hidden "
+              style=" background-color:#0F7DD8; ">
+              <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">B2B</h3>
+              <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
+
+              <img alt="" class="img-fluid " style="max-height: 240px;"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/b2b.png?v=1.01?w=1920&q=75">
+              <div class="ab2bhvr position-absolute  bottom-0 start-0 rounded-end p-1 a_font12  border-0  shadow  m-0"
+                style="bottom: 30px!important;  z-index: 1000; ">Explore
+                <i class="a_icnhvr fa-solid fa-chevron-right fa-lg  pe-1 "> </i>
               </div>
 
-            </div>
-            <!-- col imgs -->
-            <div class="col-6 p-0 d-flex align-items-start clr1_hover ">
 
 
-              <a href="#" class="btn btn-sm rounded-4 clr1 p-0 border-0 position-relative overflow-hidden "
-                style=" background-color:#0F7DD8; ">
-                <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">B2B</h3>
-                <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
-                
-                <img alt="" class="img-fluid " style="max-height: 240px;"
-                src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/b2b.png?v=1.01?w=1920&q=75">
-                <div class="ab2bhvr position-absolute  bottom-0 start-0 rounded-end p-1 a_font12  border-0  shadow  m-0"
-                  style="bottom: 30px!important;  z-index: 1000; ">Explore
-                  <i class="a_icnhvr fa-solid fa-chevron-right fa-lg  pe-1 "> </i>
-                </div>
-
-
-
-              </a>
-
-              <a href="#" class="btn btn-sm rounded-4 clr2 p-0 ms-3 border-0 position-relative overflow-hidden"
-                style=" background-color:#2654A1 ;">
-                <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">XPERTS</h3>
-                <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Nearest vender</span>
-                <div class="ab2bhvr3 position-absolute bottom-0 start-0 rounded-end p-1 a_font12 shadow "
-                  style="bottom: 30px!important;  z-index: 1000;">Explore
-                  <i class="a_icnhvr2 fa-solid fa-chevron-right fa-lg  pe-1"> </i>
-                </div>
-                <img alt="" class="img-fluid" style="max-height: 240px;"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/xperts.png?v=1.0?w=1920&q=75">
-              </a>
-
-              <a href="#" class="btn btn-sm rounded-4 clr3 p-0 ms-3 border-0 position-relative overflow-hidden"
-                style="  background-color:#00AC7D ;">
-                <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">DOCTORS</h3>
-                <div class="ab2bhvr4 position-absolute bottom-0 start-0 rounded-end p-1 a_font12  shadow "
-                  style="bottom: 30px!important;  z-index: 1000;">Explore
-                  <i class="a_icnhvr3 fa-solid fa-chevron-right fa-lg pe-1"> </i>
-                </div>
-                <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
-                <img alt="" class="img-fluid" style="max-height: 240px;"
-                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/web_doctor_image.png?v=1.0?w=1920&q=75">
-              </a>
-
-              <a href="#" class="btn btn-sm rounded-4 clr4 p-0 ms-3 border-0 position-relative overflow-hidden"
-                style=" background-color:#6769D0 ;">
-                <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">REAL ESTATE</h3>
-                <div class="ab2bhvr5 position-absolute bottom-0 start-0 rounded-end p-1 a_font12 shadow "
-                  style="bottom: 30px!important;  z-index: 1000;">Explore
-                  <i class="a_icnhvr4 fa-solid fa-chevron-right fa-lg pe-1"> </i>
-                </div>
-                <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
-
-                <img alt="" class="img-fluid" style="max-height: 240px;"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/realestate.png?v=1.0?w=1920&q=75">
-              </a>
-
-
-
-            </div>
-          </div>
-
-          <!---large main 3-->
-
-          <div class="row a_m33 pb-3   homegrid d-inline-flex ">
-            <div class="col mt-5   ">
-              <a href="#"
-                class=" a_m2_icon pb-5 icon  btn btn-sm d-block border border-light-subtle pt-2 rounded-4   text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block   "
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=48&q=75">
-                <span class="mt-3 d-block  d-flex justify-content-center">Restaurants</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-              <a href="./BusinessFilter.html"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hotel-2022.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Hotels</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon  btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid mx-auto img_size d-block "
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/automobile.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Automobile</span>
-              </a>
-
-            </div>
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block  "
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/homedecor.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Home Decor</span>
-              </a>
-
-            </div>
-
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/education.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Education</span>
-              </a>
-
-            </div>
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/renthire.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Rent & Hire</span>
-              </a>
-
-            </div>
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hospital_2023.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Hospitals</span>
-              </a>
-
-            </div>
-
-
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/contractor-2022.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Contractors</span>
-              </a>
-            </div>
-
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pet_shops_2023.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">Pet Shops</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block  border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center  ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pg-hostels-rooms.svg?w=48&q=75">
-                <span class="mt-3 d-block d-flex justify-content-center">PG/Hostels</span>
-              </a>
-
-            </div>
-
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/estate-agent.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Estate Agent</span>
-              </a>
-
-            </div>
-
-
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/dentist_2023.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Dentists</span>
-
-              </a>
-
-            </div>
-
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto  d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/gym_2023.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">GYM</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto  d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/consultants_2023.svg?w=48&q=75 ">
-
-                <span class="mt-3 d-block d-flex justify-content-center">Consultants</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/eventorganizers.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Event Organisers</span>
-
-              </a>
-
-            </div>
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/driving_school_2023.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Driving Schools</span>
-              </a>
-            </div>
-            <div class="col mt-5">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/packers_movers_2023.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Packers & Movers</span>
-              </a>
-            </div>
-
-            <div class="col mt-5">
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/courier_2023.svg?w=48&q=75 ">
-                <span class="mt-3 d-block d-flex justify-content-center">Courier Service</span>
-              </a>
-            </div>
-
-            <div class="col mt-5 ">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
-                <img alt="" class="img-fluid img_size mx-auto d-block"
-                  src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/travel_2023.svg?w=48&q=75 ">
-
-                <span class="mt-3 d-block d-flex justify-content-center">Travel</span>
-              </a>
-            </div>
-            <div class="col mt-5 ">
-
-
-              <a href="#"
-                class=" a_m2_icon pb-5 icon btn btn-sm d-block  border border-dark-subtle pt-2 rounded-4  text-decoration-none text-dark text-center mb-5">
-                <img alt="" class="img-fluid img_size mx-auto d-block " style="width: 40px;"
-                  src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hk_showmore.svg">
-                <span class="mt-3 d-block d-flex justify-content-center ">Popular Categories</span>
-              </a>
-
-            </div>
-
-
-
+            </a>
+
+            <a href="#" class="btn btn-sm rounded-4 clr2 p-0 ms-3 border-0 position-relative overflow-hidden"
+              style=" background-color:#2654A1 ;">
+              <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">XPERTS</h3>
+              <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Nearest vender</span>
+              <div class="ab2bhvr3 position-absolute bottom-0 start-0 rounded-end p-1 a_font12 shadow "
+                style="bottom: 30px!important;  z-index: 1000;">Explore
+                <i class="a_icnhvr2 fa-solid fa-chevron-right fa-lg  pe-1"> </i>
+              </div>
+              <img alt="" class="img-fluid" style="max-height: 240px;"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/xperts.png?v=1.0?w=1920&q=75">
+            </a>
+
+            <a href="#" class="btn btn-sm rounded-4 clr3 p-0 ms-3 border-0 position-relative overflow-hidden"
+              style="  background-color:#00AC7D ;">
+              <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">DOCTORS</h3>
+              <div class="ab2bhvr4 position-absolute bottom-0 start-0 rounded-end p-1 a_font12  shadow "
+                style="bottom: 30px!important;  z-index: 1000;">Explore
+                <i class="a_icnhvr3 fa-solid fa-chevron-right fa-lg pe-1"> </i>
+              </div>
+              <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
+              <img alt="" class="img-fluid" style="max-height: 240px;"
+                src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/web_doctor_image.png?v=1.0?w=1920&q=75">
+            </a>
+
+            <a href="#" class="btn btn-sm rounded-4 clr4 p-0 ms-3 border-0 position-relative overflow-hidden"
+              style=" background-color:#6769D0 ;">
+              <h3 class=" text-white fs-5 position-absolute top-0 start-0 ms-3 mt-3 fw-bold">REAL ESTATE</h3>
+              <div class="ab2bhvr5 position-absolute bottom-0 start-0 rounded-end p-1 a_font12 shadow "
+                style="bottom: 30px!important;  z-index: 1000;">Explore
+                <i class="a_icnhvr4 fa-solid fa-chevron-right fa-lg pe-1"> </i>
+              </div>
+              <span class=" position-absolute  text-white  ms-3 w-25 " style="top:50px">Quick Quotes</span>
+
+              <img alt="" class="img-fluid" style="max-height: 240px;"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/realestate.png?v=1.0?w=1920&q=75">
+            </a>
 
 
 
           </div>
-        
+        </div>
+
+        <!---large main 3-->
+
+        <div class="row a_m33 pb-3   homegrid d-inline-flex ">
+          <div class="col mt-5   ">
+            <a href="#"
+              class=" a_m2_icon pb-5 icon  btn btn-sm d-block border border-light-subtle pt-2 rounded-4   text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block   "
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/restaurant-2022.svg?w=48&q=75">
+              <span class="mt-3 d-block  d-flex justify-content-center">Restaurants</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+            <a href="./BusinessFilter.html"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hotel-2022.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Hotels</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon  btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid mx-auto img_size d-block "
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/automobile.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Automobile</span>
+            </a>
+
+          </div>
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block  "
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/homedecor.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Home Decor</span>
+            </a>
+
+          </div>
+
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/education.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Education</span>
+            </a>
+
+          </div>
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/renthire.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Rent & Hire</span>
+            </a>
+
+          </div>
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/hospital_2023.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Hospitals</span>
+            </a>
+
+          </div>
+
+
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/contractor-2022.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Contractors</span>
+            </a>
+          </div>
+
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pet_shops_2023.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">Pet Shops</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block  border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center  ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/pg-hostels-rooms.svg?w=48&q=75">
+              <span class="mt-3 d-block d-flex justify-content-center">PG/Hostels</span>
+            </a>
+
+          </div>
+
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/estate-agent.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Estate Agent</span>
+            </a>
+
+          </div>
+
+
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/dentist_2023.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Dentists</span>
+
+            </a>
+
+          </div>
+
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto  d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/gym_2023.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">GYM</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto  d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/consultants_2023.svg?w=48&q=75 ">
+
+              <span class="mt-3 d-block d-flex justify-content-center">Consultants</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/eventorganizers.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Event Organisers</span>
+
+            </a>
+
+          </div>
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/driving_school_2023.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Driving Schools</span>
+            </a>
+          </div>
+          <div class="col mt-5">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/packers_movers_2023.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Packers & Movers</span>
+            </a>
+          </div>
+
+          <div class="col mt-5">
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/courier_2023.svg?w=48&q=75 ">
+              <span class="mt-3 d-block d-flex justify-content-center">Courier Service</span>
+            </a>
+          </div>
+
+          <div class="col mt-5 ">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block border border-light-subtle pt-2 rounded-4  text-decoration-none text-dark text-center ">
+              <img alt="" class="img-fluid img_size mx-auto d-block"
+                src="https://akam.cdn.jdmagicbox.com/images/icons/newwap/newhotkey/travel_2023.svg?w=48&q=75 ">
+
+              <span class="mt-3 d-block d-flex justify-content-center">Travel</span>
+            </a>
+          </div>
+          <div class="col mt-5 ">
+
+
+            <a href="#"
+              class=" a_m2_icon pb-5 icon btn btn-sm d-block  border border-dark-subtle pt-2 rounded-4  text-decoration-none text-dark text-center mb-5">
+              <img alt="" class="img-fluid img_size mx-auto d-block " style="width: 40px;"
+                src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/web2022/hk_showmore.svg">
+              <span class="mt-3 d-block d-flex justify-content-center ">Popular Categories</span>
+            </a>
+
+          </div>
+
+
+
+
+
+
+        </div>
+
 
         <!---large main 4-->
         <div class="a_m44  m-0 ">
@@ -1484,7 +1502,7 @@
               <span class="ms-3 mb-3 d-block ">Andheri west -Mumbai</span>
               <div class="imgboxsize">
                 <img alt="" class="img-fluid   d-block w-100" style=" height: 180px;"
-                src="https://images.jdmagicbox.com/comp/navi_mumbai/t4/022pxx22.xx22.161227183427.l3t4/catalogue/ashok-electrical-work-turbhe-midc-navi-mumbai-electricians-wuub9.jpg?clr=#242e42">
+                  src="https://images.jdmagicbox.com/comp/navi_mumbai/t4/022pxx22.xx22.161227183427.l3t4/catalogue/ashok-electrical-work-turbhe-midc-navi-mumbai-electricians-wuub9.jpg?clr=#242e42">
 
               </div>
               <diV class="d-flex justify-content-start mt-3">
@@ -1578,7 +1596,7 @@
               <span class="ms-3 mb-3 d-block">Andheri East -Mumbai</span>
               <div class="imgboxsize">
                 <img alt="" class="img-fluid   d-block w-100" style=" height: 180px;"
-                src="https://images.jdmagicbox.com/comp/mumbai/k3/022pxx22.xx22.230218104640.z5k3/catalogue/-iczbc6ghow.jpg">
+                  src="https://images.jdmagicbox.com/comp/mumbai/k3/022pxx22.xx22.230218104640.z5k3/catalogue/-iczbc6ghow.jpg">
 
               </div>
               <diV class="d-flex justify-content-start mt-3">
@@ -1599,7 +1617,7 @@
               <span class="ms-3 mb-3 d-block">Goregaon West -Mumbai</span>
               <div class="imgboxsize">
                 <img alt="" class="img-fluid   d-block w-100" style=" height: 180px;"
-                src="https://images.jdmagicbox.com/comp/mumbai/b4/022pxx22.xx22.140530111510.c9b4/catalogue/rutvi-enterprises-nalasopara-west-palghar-share-brokers-8dv7oaaj39.jpg?clr=#2e382e">
+                  src="https://images.jdmagicbox.com/comp/mumbai/b4/022pxx22.xx22.140530111510.c9b4/catalogue/rutvi-enterprises-nalasopara-west-palghar-share-brokers-8dv7oaaj39.jpg?clr=#2e382e">
 
               </div>
               <diV class="d-flex justify-content-start mt-3">
@@ -1621,7 +1639,7 @@
               <span class="ms-3 mb-3 d-block">Andheri East -Mumbai</span>
               <div class="imgboxsize">
                 <img alt="" class="img-fluid    d-block w-100" style="height: 180px;"
-                src="https://images.jdmagicbox.com/comp/mumbai/k5/022pxx22.xx22.191216231314.z8k5/catalogue/shree-ganesh-paying-guest-dadar-west-mumbai-paying-guest-accommodations-for-men-1glafg214s.jpg?clr=#3a2c2c">
+                  src="https://images.jdmagicbox.com/comp/mumbai/k5/022pxx22.xx22.191216231314.z8k5/catalogue/shree-ganesh-paying-guest-dadar-west-mumbai-paying-guest-accommodations-for-men-1glafg214s.jpg?clr=#3a2c2c">
 
               </div>
               <diV class="d-flex justify-content-start mt-3">
@@ -1661,83 +1679,99 @@
         <!---large main 8-->
         <div class="a_m88 mt-5 overflow-hidden position-relative ">
           <h3 class=" mb-4">Popular Brands</h3>
-          <button class="btn h-25  position-absolute rounded-0 rounded-end shadow border-0 " style="z-index: 1000; top: 150px; left: -1px; background: #f4f4f4;">
+          <button class="btn h-25  position-absolute rounded-0 rounded-end shadow border-0 "
+            style="z-index: 1000; top: 150px; left: -1px; background: #f4f4f4;">
             <i class="fa-solid fa-chevron-right fa-lg"></i>
           </button>
-          <button class="btn h-25  position-absolute rounded-0 rounded-start shadow border-0" style="z-index: 1000; top: 150px; left: 1318px; background: #f4f4f4;">
+          <button class="btn h-25  position-absolute rounded-0 rounded-start shadow border-0"
+            style="z-index: 1000; top: 150px; left: 1318px; background: #f4f4f4;">
             <i class="fa-solid fa-chevron-left fa-lg"></i>
           </button>
 
           <div class="row  m-0 a_pop_slider  ">
             <ul class="nav  ">
-               <li class="nav-item a_pop_li  ">
+              <li class="nav-item a_pop_li  ">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/web_essae.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/web_essae.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/Web-Banners_eureka.png?w=640&q=75">
-                  </a>
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/Web-Banners_eureka.png?w=640&q=75">
+                </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/stanley.png?w=640&q=75">
-                  </a>
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/stanley.png?w=640&q=75">
+                </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100 disabled">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/nippon-web-hp.png?w=640&q=75">
-                  </a>
-              </li>
-              <li class="nav-item a_pop_li  ms-5">
-                <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/usha-Home-Page-web.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/nippon-web-hp.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/mg-motors-web-hp.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/usha-Home-Page-web.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/ambuja.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/mg-motors-web-hp.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/tesla.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/ambuja.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/stanley.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/tesla.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/usha-Home-Page-web.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/stanley.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/web_essae.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/usha-Home-Page-web.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/mg-motors-web-hp.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/web_essae.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/tesla.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/mg-motors-web-hp.png?w=640&q=75">
                 </a>
               </li>
               <li class="nav-item a_pop_li  ms-5">
                 <a class="nav-link p-0 h-100" href="#">
-                  <img alt="img-fluid" class="rounded-4 h-100 w-100" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/Web-Banners_eureka.png?w=640&q=75">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/tesla.png?w=640&q=75">
+                </a>
+              </li>
+              <li class="nav-item a_pop_li  ms-5">
+                <a class="nav-link p-0 h-100" href="#">
+                  <img alt="img-fluid" class="rounded-4 h-100 w-100"
+                    src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/brand_connect/Web-Banners_eureka.png?w=640&q=75">
                 </a>
               </li>
             </ul>
@@ -1786,7 +1820,7 @@
 
       <!---large scrn footer-->
 
-      <div class="d-none d-sm-none d-md-block " >
+      <div class="d-none d-sm-none d-md-block ">
 
 
         <!---large scrn footer1-->
@@ -1901,7 +1935,8 @@
               our reach stretches out to other smaller cities across the country too.
 
             </p>
-            <p class="ps-4 pe-4">Our 'Free Listing' feature gives a platform to showcase varied specialities. We then furnish you with the
+            <p class="ps-4 pe-4">Our 'Free Listing' feature gives a platform to showcase varied specialities. We then
+              furnish you with the
               information via phone, SMS, web, App and WAP as well as, create a space for you to share your experiences
               through our 'Rate & Review' feature. Through the 'Best Deals', 'Last Minute Deals' and 'Live Quotes', we
               make sure that you are offered the best bargains in the market.</p>
@@ -2120,7 +2155,8 @@
 
             </div>
 
-            <p class="mt-5 ps-5 pe-5 ftr_font">Some of the other services that can be of assistance to you for leisure, health
+            <p class="mt-5 ps-5 pe-5 ftr_font">Some of the other services that can be of assistance to you for leisure,
+              health
               and home convenience are
               - Pest Control, Skin Care Clinics, Painters, Laundry Services, Interior Designers, Mobile Phone Repair,
               Vaccination Centres, Internet Service Providers, etc. With an endless number of things under the sun, you
@@ -2244,6 +2280,29 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
+  <script>
+    myScroll = () => {
+
+      console.log(('Current scroll from the top to bottom: ' + window.pageYOffset));
+      let scrollHeight = window.pageYOffset;
+
+      
+
+      if (scrollHeight <= 200) {
+        document.getElementById('mybtn').style.display = 'none '
+
+
+
+      } else {
+        document.getElementById('mybtn').style.display = 'block '
+      }
+
+
+
+    }
+
+  </script>
 </body>
 
 </html>
